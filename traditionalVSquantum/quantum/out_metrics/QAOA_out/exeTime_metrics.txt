@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/adriangar8/Documents/academia/year3/semester2/social_innovation/social_innovation_repo/traditionalVSquantum/quantum/src/QAOA/QAOA.py", line 41, in <module>
+    main()
+  File "/home/adriangar8/Documents/academia/year3/semester2/social_innovation/social_innovation_repo/traditionalVSquantum/quantum/src/QAOA/QAOA.py", line 38, in main
+    qaoa_circuit(params, edges)
+  File "/home/adriangar8/Documents/academia/year3/semester2/social_innovation/social_innovation_repo/traditionalVSquantum/quantum/src/QAOA/QAOA.py", line 14, in qaoa_circuit
+    qml.layer(qaoa_cost_layer, depth=len(params[0]), params=params[0], edges=edges)
+  File "/home/adriangar8/miniconda3/envs/env/lib/python3.12/site-packages/pennylane/templates/layer.py", line 213, in layer
+    template(*arg_params, **kwargs)
+  File "/home/adriangar8/miniconda3/envs/env/lib/python3.12/site-packages/pennylane/workflow/qnode.py", line 1002, in __call__
+    self.construct(args, kwargs)
+  File "/home/adriangar8/miniconda3/envs/env/lib/python3.12/site-packages/pennylane/workflow/qnode.py", line 888, in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adriangar8/Documents/academia/year3/semester2/social_innovation/social_innovation_repo/traditionalVSquantum/quantum/src/QAOA/QAOA.py", line 21, in qaoa_cost_layer
+    qml.RX(params[i], wires=edges[i][0])
+           ~~~~~~^^^
+  File "/home/adriangar8/miniconda3/envs/env/lib/python3.12/site-packages/pennylane/numpy/tensor.py", line 187, in __getitem__
+    item = super().__getitem__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: index 2 is out of bounds for axis 0 with size 2
+
+ Performance counter stats for 'python QAOA.py':
+
+            793,46 msec task-clock                       #    0,998 CPUs utilized             
+                23      context-switches                 #   28,987 /sec                      
+                 1      cpu-migrations                   #    1,260 /sec                      
+            23.525      page-faults                      #   29,649 K/sec                     
+     2.572.063.692      cycles                           #    3,242 GHz                       
+     2.840.063.750      instructions                     #    1,10  insn per cycle            
+       583.022.963      branches                         #  734,788 M/sec                     
+        24.566.238      branch-misses                    #    4,21% of all branches           
+
+       0,794663542 seconds time elapsed
+
+       0,685618000 seconds user
+       0,108488000 seconds sys
+
+

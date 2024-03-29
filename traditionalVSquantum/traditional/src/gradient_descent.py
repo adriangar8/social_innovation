@@ -21,9 +21,11 @@ def gradient_descent(obj_fn, gradient_fn, initial_params, lr=0.01, num_steps=100
         # print("Step {}: Objective = {}".format(i, obj_fn(params)))
     return params
 
-# Initialize parameters and perform gradient descent optimization
-initial_params = np.array([-1.5, 2.5])  # Initial guess
-final_params = gradient_descent(objective, gradient, initial_params)
+if __name__ == "__main__":
 
-print("Optimal Parameters:", final_params)
-print("Optimal Objective Value:", objective(final_params))
+    # Initialize parameters and perform gradient descent optimization
+    initial_params = np.array([-1.5, 2.5])  # Initial guess
+    final_params = gradient_descent(objective, gradient, initial_params)
+
+    print("Optimal Parameters:", final_params)
+    print("Optimal Objective Value:", objective(final_params))
