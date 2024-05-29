@@ -9,3 +9,5 @@ faster processing speeds. Further than that, our study explores the potential en
 quantum systems can offer due to different operational principles. This research is looking forward
 to highlight the practical benefits and limitations of the quantum computing paradigm and wants to
 provide insights into future applications and integration with already existing technologies
+
+![alt text](https://github.com/adriangar8/social_innovation/tree/main/docs/Cos.png)
