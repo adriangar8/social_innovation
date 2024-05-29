@@ -1,4 +1,4 @@
-# social_innovation
+# Social Innovation - Energy Saving in Quantum Computing
 Our project aims to find a preliminary answer to the general efficiency comparison of quantum com-
 puting against traditional computing by evaluating the computation speed, the result accuracy and
 the energy consumption among other equally important aspects. To deal with this comparison the
@@ -10,4 +10,5 @@ quantum systems can offer due to different operational principles. This research
 to highlight the practical benefits and limitations of the quantum computing paradigm and wants to
 provide insights into future applications and integration with already existing technologies
 
-![alt text](https://github.com/adriangar8/social_innovation/tree/main/docs/Cos.png)
+## Repository structure
+![alt text](docs/Cos.png)
