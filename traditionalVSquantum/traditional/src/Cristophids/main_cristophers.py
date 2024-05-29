@@ -4,10 +4,12 @@ from cristophersHandcraft import OperationCounter
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
+from estimation_suboptimal import print_estimation
+
 
 # Create a complete weighted graph
-max_num_nodes = 60
-num_of_times = 20
+max_num_nodes = 50
+num_of_times = 5
 
 cities_vs_complexity = dict()
 
@@ -32,12 +34,16 @@ for num_nodes in range(2,max_num_nodes):
         #plt.show()
     cities_vs_complexity[num_nodes] = np.mean(operations_counts)
 
+n,y = print_estimation()
+
 print(cities_vs_complexity.keys(), cities_vs_complexity.values())
 plt.figure(figsize=(10, 5))
 plt.title('CitiesVSComplexity Cristophides')
 plt.xlabel('Number of cities')
 plt.ylabel('Number of operations')
 #plt.plot(keys, values, marker='o')
-plt.plot(list(cities_vs_complexity.keys()), list(cities_vs_complexity.values()))
+plt.plot(list(cities_vs_complexity.keys()), list(cities_vs_complexity.values()),  label='experiment')
+plt.plot(n, y,  linestyle='-', color='r', label='expected')
+plt.legend()
 plt.savefig(f"CitiesVSComplexityCristophides.png", format="PNG")
 plt.show()   
