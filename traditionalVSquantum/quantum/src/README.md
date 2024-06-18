@@ -1,6 +1,6 @@
 # Traveling Salesman Problem Solver with Quantum Computing
 
-This project utilizes quantum computing to solve the Traveling Salesman Problem (TSP), a well-known optimization problem. The solution involves encoding the problem into quantum circuits and applying reinforcement learning techniques like Q-learning to find approximate solutions efficiently.
+This project utilizes quantum computing to solve the Traveling Salesman Problem (TSP), a well-known optimization problem. The solution involves encoding the problem into quantum circuits and applying reinforcement learning techniques like Q-learning to find approximate solutions efficiently. The code presented as a Jupyter notebook where all the functions and steps are explained.
 
 ## Usage
 
