@@ -26,4 +26,3 @@ Due to the NP-hard comlexity of the problem many suboptimal algorithms have been
 Thanks to the growing of the quantum computing, many new algorithms are being developed to solve many different problems, and the TSP is a good experimental problem to try and quantify the quantum computing power. In this repository quantum machine learning algorithms will be developed in order to empirically measure it's performance. 
 
 A further analisyis of the solutions can be found in the paper attached to the repository 
-
