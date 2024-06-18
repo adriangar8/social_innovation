@@ -20,7 +20,7 @@ We have a salseman that have to go through a set of cities, and it have to find 
 ## Optimal Solution:
 Many algorithms have been proposed to solve this problem, but the brute force solution of finding all the possible paths and traverse them to find the shortest one, is the only one guraranteed to find the optimal solution. This brute force solution is not very scalable because it is an NP-hard problem that has an exponential computional complexity, so the complexity rapidly explodes, consuming much more resources that what's feasibly possible to have. 
 ## Suboptimal Solutions:
-Due to the NP-hard comlexity of the problem many suboptimal algorithms have been proposed in order to find suboptimal solutions to the problem, good enough to approximate the results. One of the most famous and best performing solutions is the Cristofides algorithm, that has a complexity of $n^2$
+Due to the NP-hard comlexity of the problem many suboptimal algorithms have been proposed in order to find suboptimal solutions to the problem, good enough to approximate the results. One of the most famous and best performing solutions is the Cristofides algorithm, that has a complexity of O($n^3$)
 
 
 # Traditional 
