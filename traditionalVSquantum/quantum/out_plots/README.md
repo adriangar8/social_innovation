@@ -21,7 +21,11 @@ This folder contains plots depicting the performance comparison between the dumm
 - **Viewing Plots**: Open the `.jpg` file using the legend provided to analyze the performance trends of the models.
 - **Comparison**: Compare the plots between the dummy model and the layer 1 model to understand how additional layers impact performance. Further comparisions are explained in the paper.
 
-![Plot](https://github.com/adriangar8/social_innovation/assets/132783746/174932cf-6088-448d-9e1a-c929aee29986)
+## The plot
+
+<div style="text-align:center">
+  <img src="https://github.com/adriangar8/social_innovation/assets/132783746/174932cf-6088-448d-9e1a-c929aee29986" alt="Plot">
+</div>
 
 ## Notes
 
